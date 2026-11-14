@@ -1,0 +1,2476 @@
+{
+  "tag": "ens",
+  "members": [
+    "ens_seed0.pt",
+    "ens_seed1.pt",
+    "ens_seed2.pt",
+    "ens_seed3.pt",
+    "ens_seed4.pt"
+  ],
+  "class_names": [
+    "Basement/Other",
+    "Slope Mudstone A",
+    "Mass Transport Deposit",
+    "Slope Mudstone B",
+    "Slope Valley",
+    "Submarine Canyon"
+  ],
+  "results": {
+    "val": {
+      "n_members": 5,
+      "ensemble": {
+        "mean_iou": 0.8259377225626651,
+        "pixel_accuracy": 0.9456560436904724,
+        "per_class_iou": [
+          0.9644230544593537,
+          0.8818686057783112,
+          0.7858966716216665,
+          0.9567395930628865,
+          0.6078104183768217,
+          0.7588879920769505
+        ],
+        "nll": 0.17153951753096902,
+        "ece": 0.020084632201410067,
+        "confusion_matrix": [
+          [
+            8132400,
+            45478,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            254519,
+            22304458,
+            426710,
+            454526,
+            59420,
+            270156
+          ],
+          [
+            2,
+            242733,
+            2457348,
+            5,
+            0,
+            0
+          ],
+          [
+            0,
+            236992,
+            1,
+            15557156,
+            0,
+            841
+          ],
+          [
+            0,
+            231949,
+            0,
+            71,
+            451670,
+            0
+          ],
+          [
+            0,
+            765328,
+            9,
+            11004,
+            0,
+            3296444
+          ]
+        ]
+      },
+      "members": {
+        "mean_iou": [
+          0.8134602515098993,
+          0.8145786795150308,
+          0.7975092654971597,
+          0.8215184560139727,
+          0.8146399160519309
+        ],
+        "nll": [
+          0.22711204560918505,
+          0.22065259304580076,
+          0.23853633633306623,
+          0.2042830388047882,
+          0.23524418735027308
+        ],
+        "ece": [
+          0.03842991705628414,
+          0.03573413253667709,
+          0.035197504459502066,
+          0.03465119957536214,
+          0.04092214196703267
+        ],
+        "per_class_iou_mean": [
+          0.9631534701991636,
+          0.8696749613692554,
+          0.7712733638549297,
+          0.9479619167799026,
+          0.5868418431661441,
+          0.7351423269361964
+        ]
+      },
+      "reliability": {
+        "accuracy": [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.5,
+          0.37351724137931036,
+          0.4624471573624116,
+          0.5144022983719865,
+          0.5519108323613904,
+          0.6056028232348322,
+          0.6490135806558464,
+          0.7039943718022693,
+          0.7797931455203044,
+          0.8236169564452733,
+          0.9789303546470252
+        ],
+        "confidence": [
+          NaN,
+          NaN,
+          NaN,
+          NaN,
+          0.3323275148868561,
+          0.37661286931613397,
+          0.438399070771198,
+          0.5128854610671246,
+          0.5675667685028941,
+          0.6331692288947545,
+          0.7009221414669179,
+          0.7699438193736787,
+          0.8333246968190156,
+          0.9039365634709602,
+          0.9942444608764426
+        ],
+        "member0_accuracy": [
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.2938388625592417,
+          0.364998501648187,
+          0.38101821730644114,
+          0.4960902031998497,
+          0.5227809782868268,
+          0.5538988276097171,
+          0.5864949419851567,
+          0.6206930261238363,
+          0.6581560896570349,
+          0.7172051400843676,
+          0.9661766031949018
+        ],
+        "member0_confidence": [
+          NaN,
+          NaN,
+          NaN,
+          0.26051075011491776,
+          0.31518975055613224,
+          0.3754001461730805,
+          0.43992964317931244,
+          0.5127756428068568,
+          0.5669714430190431,
+          0.6339305460801234,
+          0.7009002852921851,
+          0.7681539423007724,
+          0.8355686567401422,
+          0.904323716518413,
+          0.9946035970426214
+        ]
+      },
+      "uncertainty": {
+        "H": {
+          "auroc": 0.9007415835057561,
+          "accuracy_at_coverage": {
+            "0.8": 0.9856013239227174,
+            "0.9": 0.9743002562889196,
+            "0.95": 0.9630626980231565
+          }
+        },
+        "MI": {
+          "auroc": 0.8770110532744514,
+          "accuracy_at_coverage": {
+            "0.8": 0.9836588261898616,
+            "0.9": 0.9708726185324108,
+            "0.95": 0.9592249179868275
+          }
+        }
+      },
+      "overall_accuracy": 0.9456560436904724,
+      "distance": {
+        "spearman_miou": -0.9888394855420606,
+        "spearman_pixel_accuracy": -0.996434006744054,
+        "spearman_entropy": 0.9672047984243978,
+        "quartiles": [
+          {
+            "distance_mean": 76.5,
+            "distance_min": 65,
+            "distance_max": 88,
+            "n_sections": 24,
+            "mean_iou": 0.8551972240302369,
+            "pixel_accuracy": 0.9615565786074513,
+            "mean_entropy": 0.04116721115357588
+          },
+          {
+            "distance_mean": 100.0,
+            "distance_min": 89,
+            "distance_max": 111,
+            "n_sections": 23,
+            "mean_iou": 0.8329837395657739,
+            "pixel_accuracy": 0.9524887520858635,
+            "mean_entropy": 0.04919316051737879
+          },
+          {
+            "distance_mean": 123.0,
+            "distance_min": 112,
+            "distance_max": 134,
+            "n_sections": 23,
+            "mean_iou": 0.8237243308874769,
+            "pixel_accuracy": 0.9428652843440462,
+            "mean_entropy": 0.056786782107168324
+          },
+          {
+            "distance_mean": 146.0,
+            "distance_min": 135,
+            "distance_max": 157,
+            "n_sections": 23,
+            "mean_iou": 0.7940534213007525,
+            "pixel_accuracy": 0.9250222321194425,
+            "mean_entropy": 0.06672978454851519
+          }
+        ]
+      },
+      "sections": [
+        {
+          "trace": 312,
+          "distance_to_train": 65,
+          "mean_iou": 0.8630215826466442,
+          "pixel_accuracy": 0.9634818209387741,
+          "mean_entropy": 0.03759104801111032,
+          "mean_mutual_information": 0.007607545957229692
+        },
+        {
+          "trace": 313,
+          "distance_to_train": 66,
+          "mean_iou": 0.8641023192759052,
+          "pixel_accuracy": 0.9638187822219227,
+          "mean_entropy": 0.03792479386720318,
+          "mean_mutual_information": 0.007481222757964474
+        },
+        {
+          "trace": 314,
+          "distance_to_train": 67,
+          "mean_iou": 0.8636419928193116,
+          "pixel_accuracy": 0.9639619907672609,
+          "mean_entropy": 0.037286970064870834,
+          "mean_mutual_information": 0.0072418935852911325
+        },
+        {
+          "trace": 315,
+          "distance_to_train": 68,
+          "mean_iou": 0.8624479906210311,
+          "pixel_accuracy": 0.9639704147993395,
+          "mean_entropy": 0.03764891068318437,
+          "mean_mutual_information": 0.007305845709664223
+        },
+        {
+          "trace": 316,
+          "distance_to_train": 69,
+          "mean_iou": 0.8600093901253149,
+          "pixel_accuracy": 0.9635340499376621,
+          "mean_entropy": 0.038253225276102386,
+          "mean_mutual_information": 0.007506622650371158
+        },
+        {
+          "trace": 317,
+          "distance_to_train": 70,
+          "mean_iou": 0.8572300892543957,
+          "pixel_accuracy": 0.9632611112983118,
+          "mean_entropy": 0.03886819276151215,
+          "mean_mutual_information": 0.007955449290285355
+        },
+        {
+          "trace": 318,
+          "distance_to_train": 71,
+          "mean_iou": 0.8562328826046502,
+          "pixel_accuracy": 0.9628837146611854,
+          "mean_entropy": 0.040149992593640556,
+          "mean_mutual_information": 0.008461064945376708
+        },
+        {
+          "trace": 319,
+          "distance_to_train": 72,
+          "mean_iou": 0.8575915726217921,
+          "pixel_accuracy": 0.9626208848603296,
+          "mean_entropy": 0.04103244843205143,
+          "mean_mutual_information": 0.008942458989197943
+        },
+        {
+          "trace": 320,
+          "distance_to_train": 73,
+          "mean_iou": 0.8569911455460565,
+          "pixel_accuracy": 0.961968864777437,
+          "mean_entropy": 0.041689759438707466,
+          "mean_mutual_information": 0.009220963000831103
+        },
+        {
+          "trace": 321,
+          "distance_to_train": 74,
+          "mean_iou": 0.8592391792637599,
+          "pixel_accuracy": 0.9624355561545979,
+          "mean_entropy": 0.042367689125618634,
+          "mean_mutual_information": 0.009528365448539813
+        },
+        {
+          "trace": 322,
+          "distance_to_train": 75,
+          "mean_iou": 0.8596482220767167,
+          "pixel_accuracy": 0.9624507194123395,
+          "mean_entropy": 0.04306689842936013,
+          "mean_mutual_information": 0.010039053623187527
+        },
+        {
+          "trace": 323,
+          "distance_to_train": 76,
+          "mean_iou": 0.8581693282698288,
+          "pixel_accuracy": 0.962460828250834,
+          "mean_entropy": 0.044126383727514075,
+          "mean_mutual_information": 0.01033585759885369
+        },
+        {
+          "trace": 324,
+          "distance_to_train": 77,
+          "mean_iou": 0.8596065900908735,
+          "pixel_accuracy": 0.9629393132729049,
+          "mean_entropy": 0.043200913972400584,
+          "mean_mutual_information": 0.009903859135037302
+        },
+        {
+          "trace": 325,
+          "distance_to_train": 78,
+          "mean_iou": 0.8585262365461238,
+          "pixel_accuracy": 0.9626461569565656,
+          "mean_entropy": 0.04189941117140615,
+          "mean_mutual_information": 0.009434807618802372
+        },
+        {
+          "trace": 326,
+          "distance_to_train": 79,
+          "mean_iou": 0.8570770759727911,
+          "pixel_accuracy": 0.9620194089699093,
+          "mean_entropy": 0.04212103284706358,
+          "mean_mutual_information": 0.009702128326083541
+        },
+        {
+          "trace": 327,
+          "distance_to_train": 80,
+          "mean_iou": 0.8539232307448942,
+          "pixel_accuracy": 0.9613252687266233,
+          "mean_entropy": 0.04229236262115589,
+          "mean_mutual_information": 0.00978873146033765
+        },
+        {
+          "trace": 328,
+          "distance_to_train": 81,
+          "mean_iou": 0.8540375175284124,
+          "pixel_accuracy": 0.9612983118239714,
+          "mean_entropy": 0.042533818405934704,
+          "mean_mutual_information": 0.009708208993577933
+        },
+        {
+          "trace": 329,
+          "distance_to_train": 82,
+          "mean_iou": 0.8506842961711351,
+          "pixel_accuracy": 0.9602520470397952,
+          "mean_entropy": 0.04243715642947175,
+          "mean_mutual_information": 0.009566710709438835
+        },
+        {
+          "trace": 330,
+          "distance_to_train": 83,
+          "mean_iou": 0.8491952411726512,
+          "pixel_accuracy": 0.9593557300266199,
+          "mean_entropy": 0.04214130900303005,
+          "mean_mutual_information": 0.009409117304450154
+        },
+        {
+          "trace": 331,
+          "distance_to_train": 84,
+          "mean_iou": 0.8467160737579412,
+          "pixel_accuracy": 0.9586329480742662,
+          "mean_entropy": 0.042030378062955565,
+          "mean_mutual_information": 0.009456871105613574
+        },
+        {
+          "trace": 332,
+          "distance_to_train": 85,
+          "mean_iou": 0.8432991055827879,
+          "pixel_accuracy": 0.9578461434781144,
+          "mean_entropy": 0.042480094141729804,
+          "mean_mutual_information": 0.00978213301638674
+        },
+        {
+          "trace": 333,
+          "distance_to_train": 86,
+          "mean_iou": 0.8428932064485625,
+          "pixel_accuracy": 0.9577871752535634,
+          "mean_entropy": 0.04232099953922086,
+          "mean_mutual_information": 0.009919971657957322
+        },
+        {
+          "trace": 334,
+          "distance_to_train": 87,
+          "mean_iou": 0.8457397379631001,
+          "pixel_accuracy": 0.9584156080466354,
+          "mean_entropy": 0.0426081470434907,
+          "mean_mutual_information": 0.010026360886381125
+        },
+        {
+          "trace": 335,
+          "distance_to_train": 88,
+          "mean_iou": 0.8447093696210035,
+          "pixel_accuracy": 0.9579910368298683,
+          "mean_entropy": 0.04194113203708613,
+          "mean_mutual_information": 0.00945645783224466
+        },
+        {
+          "trace": 336,
+          "distance_to_train": 89,
+          "mean_iou": 0.840223477678026,
+          "pixel_accuracy": 0.9567341712437241,
+          "mean_entropy": 0.04138948093514249,
+          "mean_mutual_information": 0.009022214140362557
+        },
+        {
+          "trace": 337,
+          "distance_to_train": 90,
+          "mean_iou": 0.8373449900638109,
+          "pixel_accuracy": 0.955863126326785,
+          "mean_entropy": 0.04174621179041468,
+          "mean_mutual_information": 0.009408071426381105
+        },
+        {
+          "trace": 338,
+          "distance_to_train": 91,
+          "mean_iou": 0.8353686176036755,
+          "pixel_accuracy": 0.9552886073390168,
+          "mean_entropy": 0.041807302469413304,
+          "mean_mutual_information": 0.009510813940810008
+        },
+        {
+          "trace": 339,
+          "distance_to_train": 92,
+          "mean_iou": 0.8373723758263351,
+          "pixel_accuracy": 0.9554267614651076,
+          "mean_entropy": 0.04163571609094279,
+          "mean_mutual_information": 0.00936952714510883
+        },
+        {
+          "trace": 340,
+          "distance_to_train": 93,
+          "mean_iou": 0.8386653582571548,
+          "pixel_accuracy": 0.9550712673113859,
+          "mean_entropy": 0.04253186722288066,
+          "mean_mutual_information": 0.009761774183050949
+        },
+        {
+          "trace": 341,
+          "distance_to_train": 94,
+          "mean_iou": 0.8373867188067005,
+          "pixel_accuracy": 0.9547191427704956,
+          "mean_entropy": 0.04500779595291446,
+          "mean_mutual_information": 0.011175640564598955
+        },
+        {
+          "trace": 342,
+          "distance_to_train": 95,
+          "mean_iou": 0.8359704606613877,
+          "pixel_accuracy": 0.9541631566533005,
+          "mean_entropy": 0.0450075630577279,
+          "mean_mutual_information": 0.011156157175555691
+        },
+        {
+          "trace": 343,
+          "distance_to_train": 96,
+          "mean_iou": 0.8347783144186284,
+          "pixel_accuracy": 0.9535583111500489,
+          "mean_entropy": 0.04581690023221963,
+          "mean_mutual_information": 0.011440241073766889
+        },
+        {
+          "trace": 344,
+          "distance_to_train": 97,
+          "mean_iou": 0.8353061004532082,
+          "pixel_accuracy": 0.9540570138491088,
+          "mean_entropy": 0.04642826276810844,
+          "mean_mutual_information": 0.011572318568638273
+        },
+        {
+          "trace": 345,
+          "distance_to_train": 98,
+          "mean_iou": 0.834056578026929,
+          "pixel_accuracy": 0.9537200525659602,
+          "mean_entropy": 0.04799234971356614,
+          "mean_mutual_information": 0.012182471057425629
+        },
+        {
+          "trace": 346,
+          "distance_to_train": 99,
+          "mean_iou": 0.8309242300926565,
+          "pixel_accuracy": 0.9532129258348215,
+          "mean_entropy": 0.04823060412146752,
+          "mean_mutual_information": 0.012021940094025789
+        },
+        {
+          "trace": 347,
+          "distance_to_train": 100,
+          "mean_iou": 0.8297987567875964,
+          "pixel_accuracy": 0.9537958688546686,
+          "mean_entropy": 0.04843278123901356,
+          "mean_mutual_information": 0.012154421847502202
+        },
+        {
+          "trace": 348,
+          "distance_to_train": 101,
+          "mean_iou": 0.8323460847244784,
+          "pixel_accuracy": 0.9539660343026586,
+          "mean_entropy": 0.04859829465763347,
+          "mean_mutual_information": 0.012111164768499933
+        },
+        {
+          "trace": 349,
+          "distance_to_train": 102,
+          "mean_iou": 0.8338545857826807,
+          "pixel_accuracy": 0.9531135222562928,
+          "mean_entropy": 0.04987919311020614,
+          "mean_mutual_information": 0.012856170058941985
+        },
+        {
+          "trace": 350,
+          "distance_to_train": 103,
+          "mean_iou": 0.832777864952337,
+          "pixel_accuracy": 0.9514893688715167,
+          "mean_entropy": 0.05134249677130527,
+          "mean_mutual_information": 0.013917030299603946
+        },
+        {
+          "trace": 351,
+          "distance_to_train": 104,
+          "mean_iou": 0.8317970236926205,
+          "pixel_accuracy": 0.9504869090541497,
+          "mean_entropy": 0.052911393564195365,
+          "mean_mutual_information": 0.01445839282693907
+        },
+        {
+          "trace": 352,
+          "distance_to_train": 105,
+          "mean_iou": 0.8288811009390828,
+          "pixel_accuracy": 0.9493142837887927,
+          "mean_entropy": 0.05378701503700885,
+          "mean_mutual_information": 0.014374298607327671
+        },
+        {
+          "trace": 353,
+          "distance_to_train": 106,
+          "mean_iou": 0.8307533846140794,
+          "pixel_accuracy": 0.9502847322842606,
+          "mean_entropy": 0.05425645084850791,
+          "mean_mutual_information": 0.01433847224207086
+        },
+        {
+          "trace": 354,
+          "distance_to_train": 107,
+          "mean_iou": 0.8307483545697579,
+          "pixel_accuracy": 0.9501145668362705,
+          "mean_entropy": 0.055649558605578534,
+          "mean_mutual_information": 0.015299166533268443
+        },
+        {
+          "trace": 355,
+          "distance_to_train": 108,
+          "mean_iou": 0.8274113879619039,
+          "pixel_accuracy": 0.949167705630623,
+          "mean_entropy": 0.05658222964778231,
+          "mean_mutual_information": 0.015953508668359564
+        },
+        {
+          "trace": 356,
+          "distance_to_train": 109,
+          "mean_iou": 0.8283221135289831,
+          "pixel_accuracy": 0.9491441183408026,
+          "mean_entropy": 0.05768666401299813,
+          "mean_mutual_information": 0.01664009896479411
+        },
+        {
+          "trace": 357,
+          "distance_to_train": 110,
+          "mean_iou": 0.8279580665728559,
+          "pixel_accuracy": 0.9479327425278835,
+          "mean_entropy": 0.05820938677873501,
+          "mean_mutual_information": 0.016574429683679212
+        },
+        {
+          "trace": 358,
+          "distance_to_train": 111,
+          "mean_iou": 0.8265800639979123,
+          "pixel_accuracy": 0.9466169087171884,
+          "mean_entropy": 0.056513173271949727,
+          "mean_mutual_information": 0.015890791535415037
+        },
+        {
+          "trace": 359,
+          "distance_to_train": 112,
+          "mean_iou": 0.8302636108297362,
+          "pixel_accuracy": 0.9476159989217239,
+          "mean_entropy": 0.05480794694480662,
+          "mean_mutual_information": 0.015268554393618086
+        },
+        {
+          "trace": 360,
+          "distance_to_train": 113,
+          "mean_iou": 0.828983232168302,
+          "pixel_accuracy": 0.9477676314991408,
+          "mean_entropy": 0.053126195762430564,
+          "mean_mutual_information": 0.014585350548270997
+        },
+        {
+          "trace": 361,
+          "distance_to_train": 114,
+          "mean_iou": 0.8281428101643983,
+          "pixel_accuracy": 0.9474492030865653,
+          "mean_entropy": 0.05343183240180113,
+          "mean_mutual_information": 0.014201297033509842
+        },
+        {
+          "trace": 362,
+          "distance_to_train": 115,
+          "mean_iou": 0.825592181330497,
+          "pixel_accuracy": 0.94654109242848,
+          "mean_entropy": 0.05458068002612985,
+          "mean_mutual_information": 0.014740615653260557
+        },
+        {
+          "trace": 363,
+          "distance_to_train": 116,
+          "mean_iou": 0.8281518803732135,
+          "pixel_accuracy": 0.9465899518145365,
+          "mean_entropy": 0.055842814871511694,
+          "mean_mutual_information": 0.01530228471290473
+        },
+        {
+          "trace": 364,
+          "distance_to_train": 117,
+          "mean_iou": 0.8285369482827863,
+          "pixel_accuracy": 0.946888162550123,
+          "mean_entropy": 0.0552491145654243,
+          "mean_mutual_information": 0.01494195235607941
+        },
+        {
+          "trace": 365,
+          "distance_to_train": 118,
+          "mean_iou": 0.8291111106624932,
+          "pixel_accuracy": 0.9463001651110288,
+          "mean_entropy": 0.05486353684530888,
+          "mean_mutual_information": 0.014786710256568691
+        },
+        {
+          "trace": 366,
+          "distance_to_train": 119,
+          "mean_iou": 0.8272680517084948,
+          "pixel_accuracy": 0.9448680796576473,
+          "mean_entropy": 0.05454732697416138,
+          "mean_mutual_information": 0.014919807496535212
+        },
+        {
+          "trace": 367,
+          "distance_to_train": 120,
+          "mean_iou": 0.8270159637162259,
+          "pixel_accuracy": 0.9444755197627792,
+          "mean_entropy": 0.05383384489628943,
+          "mean_mutual_information": 0.014325316516165202
+        },
+        {
+          "trace": 368,
+          "distance_to_train": 121,
+          "mean_iou": 0.8293074920151988,
+          "pixel_accuracy": 0.9452185193921219,
+          "mean_entropy": 0.05463684695960943,
+          "mean_mutual_information": 0.014475966314225984
+        },
+        {
+          "trace": 369,
+          "distance_to_train": 122,
+          "mean_iou": 0.8266099540549224,
+          "pixel_accuracy": 0.9437055632307848,
+          "mean_entropy": 0.05476195058089977,
+          "mean_mutual_information": 0.014349098807067265
+        },
+        {
+          "trace": 370,
+          "distance_to_train": 123,
+          "mean_iou": 0.8227560681347573,
+          "pixel_accuracy": 0.9430299558580719,
+          "mean_entropy": 0.055615807783386186,
+          "mean_mutual_information": 0.014704257701733859
+        },
+        {
+          "trace": 371,
+          "distance_to_train": 124,
+          "mean_iou": 0.8181952126065642,
+          "pixel_accuracy": 0.9415860767597803,
+          "mean_entropy": 0.05681462949073968,
+          "mean_mutual_information": 0.015389696150906566
+        },
+        {
+          "trace": 372,
+          "distance_to_train": 125,
+          "mean_iou": 0.8187745334616531,
+          "pixel_accuracy": 0.940789163325134,
+          "mean_entropy": 0.05652026649626857,
+          "mean_mutual_information": 0.01573938663952428
+        },
+        {
+          "trace": 373,
+          "distance_to_train": 126,
+          "mean_iou": 0.8193464647071664,
+          "pixel_accuracy": 0.9403848097853557,
+          "mean_entropy": 0.05574549216618556,
+          "mean_mutual_information": 0.015856279105538097
+        },
+        {
+          "trace": 374,
+          "distance_to_train": 127,
+          "mean_iou": 0.820995988741663,
+          "pixel_accuracy": 0.9401169255652525,
+          "mean_entropy": 0.057146821261266294,
+          "mean_mutual_information": 0.01630553058223885
+        },
+        {
+          "trace": 375,
+          "distance_to_train": 128,
+          "mean_iou": 0.823456441826457,
+          "pixel_accuracy": 0.9409323718704721,
+          "mean_entropy": 0.05936430101201244,
+          "mean_mutual_information": 0.017271283539261002
+        },
+        {
+          "trace": 376,
+          "distance_to_train": 129,
+          "mean_iou": 0.8185242195413639,
+          "pixel_accuracy": 0.9396266468982714,
+          "mean_entropy": 0.05969252793363747,
+          "mean_mutual_information": 0.017404960356099484
+        },
+        {
+          "trace": 377,
+          "distance_to_train": 130,
+          "mean_iou": 0.8178908250553826,
+          "pixel_accuracy": 0.9398305084745763,
+          "mean_entropy": 0.059038046035260916,
+          "mean_mutual_information": 0.016833583483281053
+        },
+        {
+          "trace": 378,
+          "distance_to_train": 131,
+          "mean_iou": 0.8181086982847378,
+          "pixel_accuracy": 0.9393840347744045,
+          "mean_entropy": 0.05982825864676561,
+          "mean_mutual_information": 0.01738317253454507
+        },
+        {
+          "trace": 379,
+          "distance_to_train": 132,
+          "mean_iou": 0.8194836971223824,
+          "pixel_accuracy": 0.938502881018971,
+          "mean_entropy": 0.06128750432804353,
+          "mean_mutual_information": 0.01832496380021883
+        },
+        {
+          "trace": 380,
+          "distance_to_train": 133,
+          "mean_iou": 0.8199846924470003,
+          "pixel_accuracy": 0.9373774303332547,
+          "mean_entropy": 0.06258192818290245,
+          "mean_mutual_information": 0.019449469336029125
+        },
+        {
+          "trace": 381,
+          "distance_to_train": 134,
+          "mean_iou": 0.8191595331765714,
+          "pixel_accuracy": 0.9369208477945884,
+          "mean_entropy": 0.06277831430002982,
+          "mean_mutual_information": 0.0195121315443949
+        },
+        {
+          "trace": 382,
+          "distance_to_train": 135,
+          "mean_iou": 0.8149349103856981,
+          "pixel_accuracy": 0.9351164201233279,
+          "mean_entropy": 0.061072201209922274,
+          "mean_mutual_information": 0.01854783705017457
+        },
+        {
+          "trace": 383,
+          "distance_to_train": 136,
+          "mean_iou": 0.8101032021807105,
+          "pixel_accuracy": 0.9331991104222125,
+          "mean_entropy": 0.060016117337445316,
+          "mean_mutual_information": 0.017648925471904088
+        },
+        {
+          "trace": 384,
+          "distance_to_train": 137,
+          "mean_iou": 0.8045770084086139,
+          "pixel_accuracy": 0.9318866462243488,
+          "mean_entropy": 0.0601630165929368,
+          "mean_mutual_information": 0.017714104218656646
+        },
+        {
+          "trace": 385,
+          "distance_to_train": 138,
+          "mean_iou": 0.7975220291270357,
+          "pixel_accuracy": 0.9290831283485528,
+          "mean_entropy": 0.060349159167217496,
+          "mean_mutual_information": 0.017582748979759182
+        },
+        {
+          "trace": 386,
+          "distance_to_train": 139,
+          "mean_iou": 0.794862680205691,
+          "pixel_accuracy": 0.9264683087913199,
+          "mean_entropy": 0.058522435637364666,
+          "mean_mutual_information": 0.01646155745809287
+        },
+        {
+          "trace": 387,
+          "distance_to_train": 140,
+          "mean_iou": 0.7944800849840444,
+          "pixel_accuracy": 0.9243875728678774,
+          "mean_entropy": 0.05796981418778611,
+          "mean_mutual_information": 0.015873219599041744
+        },
+        {
+          "trace": 388,
+          "distance_to_train": 141,
+          "mean_iou": 0.7946134465165153,
+          "pixel_accuracy": 0.9235822354011524,
+          "mean_entropy": 0.06021663526258783,
+          "mean_mutual_information": 0.016936078088973724
+        },
+        {
+          "trace": 389,
+          "distance_to_train": 142,
+          "mean_iou": 0.7975123775791837,
+          "pixel_accuracy": 0.9254237288135593,
+          "mean_entropy": 0.061405352845986416,
+          "mean_mutual_information": 0.017694079230572837
+        },
+        {
+          "trace": 390,
+          "distance_to_train": 143,
+          "mean_iou": 0.7975652097398348,
+          "pixel_accuracy": 0.9258702025137312,
+          "mean_entropy": 0.06200167032474862,
+          "mean_mutual_information": 0.018092285014291477
+        },
+        {
+          "trace": 391,
+          "distance_to_train": 144,
+          "mean_iou": 0.796222142224309,
+          "pixel_accuracy": 0.925386663072413,
+          "mean_entropy": 0.0630093570962254,
+          "mean_mutual_information": 0.01846864312013155
+        },
+        {
+          "trace": 392,
+          "distance_to_train": 145,
+          "mean_iou": 0.7949265781025914,
+          "pixel_accuracy": 0.9257590052902921,
+          "mean_entropy": 0.06352766631212955,
+          "mean_mutual_information": 0.01862656009651069
+        },
+        {
+          "trace": 393,
+          "distance_to_train": 146,
+          "mean_iou": 0.7938688058460577,
+          "pixel_accuracy": 0.9253782390403342,
+          "mean_entropy": 0.0641780360774758,
+          "mean_mutual_information": 0.018834127096968453
+        },
+        {
+          "trace": 394,
+          "distance_to_train": 147,
+          "mean_iou": 0.7962616795727936,
+          "pixel_accuracy": 0.9257455268389662,
+          "mean_entropy": 0.06592851386938688,
+          "mean_mutual_information": 0.02006386029258405
+        },
+        {
+          "trace": 395,
+          "distance_to_train": 148,
+          "mean_iou": 0.7943807375033328,
+          "pixel_accuracy": 0.9245594231222832,
+          "mean_entropy": 0.06710344712741982,
+          "mean_mutual_information": 0.021189216317300683
+        },
+        {
+          "trace": 396,
+          "distance_to_train": 149,
+          "mean_iou": 0.7909521108415706,
+          "pixel_accuracy": 0.9235081039188597,
+          "mean_entropy": 0.06755981769359834,
+          "mean_mutual_information": 0.02159663005679548
+        },
+        {
+          "trace": 397,
+          "distance_to_train": 150,
+          "mean_iou": 0.7850843445910002,
+          "pixel_accuracy": 0.9214459008659905,
+          "mean_entropy": 0.07109404318354598,
+          "mean_mutual_information": 0.023799869193825842
+        },
+        {
+          "trace": 398,
+          "distance_to_train": 151,
+          "mean_iou": 0.7872349770944321,
+          "pixel_accuracy": 0.9220423223371634,
+          "mean_entropy": 0.07305429988679285,
+          "mean_mutual_information": 0.025030136176915577
+        },
+        {
+          "trace": 399,
+          "distance_to_train": 152,
+          "mean_iou": 0.7893479758240162,
+          "pixel_accuracy": 0.9214644337365636,
+          "mean_entropy": 0.07395089158653416,
+          "mean_mutual_information": 0.025670898435992854
+        },
+        {
+          "trace": 400,
+          "distance_to_train": 153,
+          "mean_iou": 0.790317695013005,
+          "pixel_accuracy": 0.9204131145331401,
+          "mean_entropy": 0.07479563071378018,
+          "mean_mutual_information": 0.025944181711460186
+        },
+        {
+          "trace": 401,
+          "distance_to_train": 154,
+          "mean_iou": 0.7901100140660948,
+          "pixel_accuracy": 0.9221669980119285,
+          "mean_entropy": 0.07569408999343727,
+          "mean_mutual_information": 0.026710390593786913
+        },
+        {
+          "trace": 402,
+          "distance_to_train": 155,
+          "mean_iou": 0.7869351899938808,
+          "pixel_accuracy": 0.9224652087475149,
+          "mean_entropy": 0.07586007485832091,
+          "mean_mutual_information": 0.02608663659459334
+        },
+        {
+          "trace": 403,
+          "distance_to_train": 156,
+          "mean_iou": 0.7825341116866705,
+          "pixel_accuracy": 0.920734912558547,
+          "mean_entropy": 0.0771010037836252,
+          "mean_mutual_information": 0.026658727956192372
+        },
+        {
+          "trace": 404,
+          "distance_to_train": 157,
+          "mean_iou": 0.7788813784302268,
+          "pixel_accuracy": 0.9194241331670991,
+          "mean_entropy": 0.08021176986758145,
+          "mean_mutual_information": 0.028559238536305508
+        }
+      ]
+    },
+    "test": {
+      "n_members": 5,
+      "ensemble": {
+        "mean_iou": 0.8362746968411972,
+        "pixel_accuracy": 0.9505038867188006,
+        "per_class_iou": [
+          0.947644344924156,
+          0.8832599594885007,
+          0.733164671633142,
+          0.9699689172923726,
+          0.6042464585566083,
+          0.8793638291524032
+        ],
+        "nll": 0.15644732515398158,
+        "ece": 0.01323047002044042,
+        "confusion_matrix": [
+          [
+            10007962,
+            65019,
+            0,
+            7481,
+            28,
+            2
+          ],
+          [
+            480371,
+            34336632,
+            457423,
+            506331,
+            139073,
+            1009474
+          ],
+          [
+            21,
+            657339,
+            3088366,
+            7624,
+            0,
+            0
+          ],
+          [
+            0,
+            339571,
+            1598,
+            28763564,
+            2,
+            3581
+          ],
+          [
+            0,
+            396078,
+            0,
+            20939,
+            849098,
+            0
+          ],
+          [
+            0,
+            487577,
+            6,
+            3418,
+            0,
+            10963662
+          ]
+        ]
+      },
+      "members": {
+        "mean_iou": [
+          0.828494134706213,
+          0.8139974027629818,
+          0.8113032346353045,
+          0.8104402707091487,
+          0.8106778853832353
+        ],
+        "nll": [
+          0.1936497010015227,
+          0.23303577730392472,
+          0.20858988637068984,
+          0.23001301205658728,
+          0.21597399925011898
+        ],
+        "ece": [
+          0.0316476557046111,
+          0.03927031514854859,
+          0.03190514195261997,
+          0.03756905509122964,
+          0.036848093859014996
+        ],
+        "per_class_iou_mean": [
+          0.9348629386654326,
+          0.8645615029973029,
+          0.6984661695504515,
+          0.9623745661288033,
+          0.5747912811734999,
+          0.85483905532077
+        ]
+      },
+      "reliability": {
+        "accuracy": [
+          NaN,
+          NaN,
+          NaN,
+          0.6440677966101694,
+          0.44155844155844154,
+          0.44778121390513803,
+          0.5642320764095056,
+          0.5227908648292503,
+          0.5626307682233607,
+          0.6445281693144336,
+          0.6823805807044818,
+          0.7627396202647378,
+          0.8244207900071401,
+          0.8496530088724982,
+          0.9832111703336911
+        ],
+        "confidence": [
+          NaN,
+          NaN,
+          NaN,
+          0.2527381920460927,
+          0.3131939192295392,
+          0.3755546812528985,
+          0.43651313729797103,
+          0.5124174150421367,
+          0.5678979266819992,
+          0.6326052680409717,
+          0.7007597142528642,
+          0.7704174970156223,
+          0.8322793654020257,
+          0.9030058801409825,
+          0.9951789019604411
+        ],
+        "member0_accuracy": [
+          NaN,
+          NaN,
+          NaN,
+          0.0,
+          0.2857142857142857,
+          0.35120577794099644,
+          0.3505295524427742,
+          0.48385705853055655,
+          0.5134695209663773,
+          0.5445990248444729,
+          0.5759732360784349,
+          0.6091320514724574,
+          0.6466682181164005,
+          0.7203541516658901,
+          0.9743261786573467
+        ],
+        "member0_confidence": [
+          NaN,
+          NaN,
+          NaN,
+          0.2526414766907692,
+          0.3180710974845172,
+          0.37587011545579135,
+          0.43984599591604795,
+          0.5120167344003475,
+          0.5669367591685889,
+          0.6338266866481661,
+          0.7009018744322042,
+          0.7681411104347148,
+          0.8354692325171019,
+          0.9036346179965571,
+          0.9952085596059274
+        ]
+      },
+      "uncertainty": {
+        "H": {
+          "auroc": 0.902705061599816,
+          "accuracy_at_coverage": {
+            "0.8": 0.9894448285901424,
+            "0.9": 0.9774129274831909,
+            "0.95": 0.9660918656345882
+          }
+        },
+        "MI": {
+          "auroc": 0.8809481169247039,
+          "accuracy_at_coverage": {
+            "0.8": 0.988449466598534,
+            "0.9": 0.974077216559592,
+            "0.95": 0.961645600310754
+          }
+        }
+      },
+      "overall_accuracy": 0.9505038867188006,
+      "distance": {
+        "spearman_miou": -0.9520127704635614,
+        "spearman_pixel_accuracy": -0.9433421314662325,
+        "spearman_entropy": 0.9787580408085853,
+        "quartiles": [
+          {
+            "distance_mean": 84.0,
+            "distance_min": 65,
+            "distance_max": 103,
+            "n_sections": 39,
+            "mean_iou": 0.8752052768589343,
+            "pixel_accuracy": 0.9662329802151884,
+            "mean_entropy": 0.037661333400303344
+          },
+          {
+            "distance_mean": 123.0,
+            "distance_min": 104,
+            "distance_max": 142,
+            "n_sections": 39,
+            "mean_iou": 0.8457923128908303,
+            "pixel_accuracy": 0.9570200699324264,
+            "mean_entropy": 0.04824872474315807
+          },
+          {
+            "distance_mean": 162.0,
+            "distance_min": 143,
+            "distance_max": 181,
+            "n_sections": 39,
+            "mean_iou": 0.8221196133154581,
+            "pixel_accuracy": 0.9435163033100826,
+            "mean_entropy": 0.06146900863778594
+          },
+          {
+            "distance_mean": 201.0,
+            "distance_min": 182,
+            "distance_max": 220,
+            "n_sections": 39,
+            "mean_iou": 0.8035083594817878,
+            "pixel_accuracy": 0.9352461934175045,
+            "mean_entropy": 0.0751508010102393
+          }
+        ]
+      },
+      "sections": [
+        {
+          "trace": 469,
+          "distance_to_train": 220,
+          "mean_iou": 0.7958609756089715,
+          "pixel_accuracy": 0.9308033156990262,
+          "mean_entropy": 0.07414440256492481,
+          "mean_mutual_information": 0.024531997628909008
+        },
+        {
+          "trace": 470,
+          "distance_to_train": 219,
+          "mean_iou": 0.7981102974657196,
+          "pixel_accuracy": 0.9325757320483876,
+          "mean_entropy": 0.07592179094885428,
+          "mean_mutual_information": 0.025984743011697092
+        },
+        {
+          "trace": 471,
+          "distance_to_train": 218,
+          "mean_iou": 0.8043653897322133,
+          "pixel_accuracy": 0.935148431445227,
+          "mean_entropy": 0.0767829283038941,
+          "mean_mutual_information": 0.02687471104378315
+        },
+        {
+          "trace": 472,
+          "distance_to_train": 217,
+          "mean_iou": 0.8029654953010091,
+          "pixel_accuracy": 0.935770125012636,
+          "mean_entropy": 0.07587244859232699,
+          "mean_mutual_information": 0.02598900858971479
+        },
+        {
+          "trace": 473,
+          "distance_to_train": 216,
+          "mean_iou": 0.7984268822219737,
+          "pixel_accuracy": 0.9350608215116083,
+          "mean_entropy": 0.07465337612726981,
+          "mean_mutual_information": 0.02542120130628694
+        },
+        {
+          "trace": 474,
+          "distance_to_train": 215,
+          "mean_iou": 0.7903944311767424,
+          "pixel_accuracy": 0.9346126630050208,
+          "mean_entropy": 0.07297382136894168,
+          "mean_mutual_information": 0.02406243795740055
+        },
+        {
+          "trace": 475,
+          "distance_to_train": 214,
+          "mean_iou": 0.7861727604485766,
+          "pixel_accuracy": 0.933962327728544,
+          "mean_entropy": 0.0722809979319147,
+          "mean_mutual_information": 0.023630179934468202
+        },
+        {
+          "trace": 476,
+          "distance_to_train": 213,
+          "mean_iou": 0.7913415048396172,
+          "pixel_accuracy": 0.9345638036189642,
+          "mean_entropy": 0.07260519340359156,
+          "mean_mutual_information": 0.023691915577951923
+        },
+        {
+          "trace": 477,
+          "distance_to_train": 212,
+          "mean_iou": 0.8008491289189935,
+          "pixel_accuracy": 0.9351568554773056,
+          "mean_entropy": 0.07331331979667516,
+          "mean_mutual_information": 0.024437254284091776
+        },
+        {
+          "trace": 478,
+          "distance_to_train": 211,
+          "mean_iou": 0.8044121118169555,
+          "pixel_accuracy": 0.9347457627118644,
+          "mean_entropy": 0.07273158156706055,
+          "mean_mutual_information": 0.02413456337359584
+        },
+        {
+          "trace": 479,
+          "distance_to_train": 210,
+          "mean_iou": 0.8065717279963169,
+          "pixel_accuracy": 0.9359049095258954,
+          "mean_entropy": 0.07351119830156813,
+          "mean_mutual_information": 0.024054109984411532
+        },
+        {
+          "trace": 480,
+          "distance_to_train": 209,
+          "mean_iou": 0.8052640879992191,
+          "pixel_accuracy": 0.9356791454661859,
+          "mean_entropy": 0.07579495823259882,
+          "mean_mutual_information": 0.02565378058238646
+        },
+        {
+          "trace": 481,
+          "distance_to_train": 208,
+          "mean_iou": 0.7998865920389931,
+          "pixel_accuracy": 0.9344441823634464,
+          "mean_entropy": 0.0779826626491591,
+          "mean_mutual_information": 0.027306486749717446
+        },
+        {
+          "trace": 482,
+          "distance_to_train": 207,
+          "mean_iou": 0.8011656537206551,
+          "pixel_accuracy": 0.9339909694376116,
+          "mean_entropy": 0.08056194314469704,
+          "mean_mutual_information": 0.028900049051622943
+        },
+        {
+          "trace": 483,
+          "distance_to_train": 206,
+          "mean_iou": 0.8037567235901925,
+          "pixel_accuracy": 0.9355072952117802,
+          "mean_entropy": 0.08087483628383775,
+          "mean_mutual_information": 0.0292955089159787
+        },
+        {
+          "trace": 484,
+          "distance_to_train": 205,
+          "mean_iou": 0.8050836011881897,
+          "pixel_accuracy": 0.9372645483033999,
+          "mean_entropy": 0.0800174066042684,
+          "mean_mutual_information": 0.028059900889247813
+        },
+        {
+          "trace": 485,
+          "distance_to_train": 204,
+          "mean_iou": 0.8059144460322661,
+          "pixel_accuracy": 0.9379182531927082,
+          "mean_entropy": 0.08085413119549867,
+          "mean_mutual_information": 0.027797010378935866
+        },
+        {
+          "trace": 486,
+          "distance_to_train": 203,
+          "mean_iou": 0.8048311052798164,
+          "pixel_accuracy": 0.9363176870977524,
+          "mean_entropy": 0.08070965860688888,
+          "mean_mutual_information": 0.02775118724865664
+        },
+        {
+          "trace": 487,
+          "distance_to_train": 202,
+          "mean_iou": 0.807042729870613,
+          "pixel_accuracy": 0.9351635947029686,
+          "mean_entropy": 0.07902003566779683,
+          "mean_mutual_information": 0.02746045334836808
+        },
+        {
+          "trace": 488,
+          "distance_to_train": 201,
+          "mean_iou": 0.8083336942954015,
+          "pixel_accuracy": 0.9349866900293157,
+          "mean_entropy": 0.07590334411537371,
+          "mean_mutual_information": 0.025794599325361427
+        },
+        {
+          "trace": 489,
+          "distance_to_train": 200,
+          "mean_iou": 0.8081181419223263,
+          "pixel_accuracy": 0.9347996765171682,
+          "mean_entropy": 0.07537435926034412,
+          "mean_mutual_information": 0.02524879453358261
+        },
+        {
+          "trace": 490,
+          "distance_to_train": 199,
+          "mean_iou": 0.8080041195604325,
+          "pixel_accuracy": 0.9359318664285473,
+          "mean_entropy": 0.07582603575717678,
+          "mean_mutual_information": 0.02551256448987427
+        },
+        {
+          "trace": 491,
+          "distance_to_train": 198,
+          "mean_iou": 0.80657435090663,
+          "pixel_accuracy": 0.9346278262627624,
+          "mean_entropy": 0.07432543560485191,
+          "mean_mutual_information": 0.024364590017989237
+        },
+        {
+          "trace": 492,
+          "distance_to_train": 197,
+          "mean_iou": 0.8059857603527347,
+          "pixel_accuracy": 0.9344542912019409,
+          "mean_entropy": 0.0746811420708621,
+          "mean_mutual_information": 0.02449099191000873
+        },
+        {
+          "trace": 493,
+          "distance_to_train": 196,
+          "mean_iou": 0.8041611872661285,
+          "pixel_accuracy": 0.9339741213734541,
+          "mean_entropy": 0.07478577872454459,
+          "mean_mutual_information": 0.024876958317832595
+        },
+        {
+          "trace": 494,
+          "distance_to_train": 195,
+          "mean_iou": 0.8040281929342545,
+          "pixel_accuracy": 0.93431613707585,
+          "mean_entropy": 0.0758727840964077,
+          "mean_mutual_information": 0.025950330141033602
+        },
+        {
+          "trace": 495,
+          "distance_to_train": 194,
+          "mean_iou": 0.8063578122872963,
+          "pixel_accuracy": 0.9353354449573744,
+          "mean_entropy": 0.07695157016831276,
+          "mean_mutual_information": 0.027058778223858437
+        },
+        {
+          "trace": 496,
+          "distance_to_train": 193,
+          "mean_iou": 0.8129185463146814,
+          "pixel_accuracy": 0.9384691848906561,
+          "mean_entropy": 0.07560397541424034,
+          "mean_mutual_information": 0.026885565086252058
+        },
+        {
+          "trace": 497,
+          "distance_to_train": 192,
+          "mean_iou": 0.811470535813222,
+          "pixel_accuracy": 0.9384590760521616,
+          "mean_entropy": 0.07282024870569452,
+          "mean_mutual_information": 0.025069737126837185
+        },
+        {
+          "trace": 498,
+          "distance_to_train": 191,
+          "mean_iou": 0.8094759621456588,
+          "pixel_accuracy": 0.9375172692657614,
+          "mean_entropy": 0.06993481076008266,
+          "mean_mutual_information": 0.023662909525936728
+        },
+        {
+          "trace": 499,
+          "distance_to_train": 190,
+          "mean_iou": 0.8078651740110675,
+          "pixel_accuracy": 0.9369545439229032,
+          "mean_entropy": 0.06970035724215845,
+          "mean_mutual_information": 0.023687554609974303
+        },
+        {
+          "trace": 500,
+          "distance_to_train": 189,
+          "mean_iou": 0.8056750523104165,
+          "pixel_accuracy": 0.936615897833339,
+          "mean_entropy": 0.07006492160351804,
+          "mean_mutual_information": 0.0240237017582639
+        },
+        {
+          "trace": 501,
+          "distance_to_train": 188,
+          "mean_iou": 0.7998750160642549,
+          "pixel_accuracy": 0.935141692219564,
+          "mean_entropy": 0.070810386518899,
+          "mean_mutual_information": 0.02426451494030087
+        },
+        {
+          "trace": 502,
+          "distance_to_train": 187,
+          "mean_iou": 0.8026459411822882,
+          "pixel_accuracy": 0.9356083835967247,
+          "mean_entropy": 0.07290256437574433,
+          "mean_mutual_information": 0.02551556570974851
+        },
+        {
+          "trace": 503,
+          "distance_to_train": 186,
+          "mean_iou": 0.8043065709325878,
+          "pixel_accuracy": 0.9357263200458268,
+          "mean_entropy": 0.07463127038988947,
+          "mean_mutual_information": 0.02633169489984277
+        },
+        {
+          "trace": 504,
+          "distance_to_train": 185,
+          "mean_iou": 0.8043302681686179,
+          "pixel_accuracy": 0.9349833204164841,
+          "mean_entropy": 0.07553657927685839,
+          "mean_mutual_information": 0.027009431981268504
+        },
+        {
+          "trace": 505,
+          "distance_to_train": 184,
+          "mean_iou": 0.8058739023695666,
+          "pixel_accuracy": 0.934853590322472,
+          "mean_entropy": 0.07441390981200081,
+          "mean_mutual_information": 0.026345896120817607
+        },
+        {
+          "trace": 506,
+          "distance_to_train": 183,
+          "mean_iou": 0.8062196671356539,
+          "pixel_accuracy": 0.9342487448192203,
+          "mean_entropy": 0.07501314922342861,
+          "mean_mutual_information": 0.026799961615855745
+        },
+        {
+          "trace": 507,
+          "distance_to_train": 182,
+          "mean_iou": 0.8021904785694699,
+          "pixel_accuracy": 0.9330070424908178,
+          "mean_entropy": 0.07512192498717767,
+          "mean_mutual_information": 0.026748995567319626
+        },
+        {
+          "trace": 508,
+          "distance_to_train": 181,
+          "mean_iou": 0.7967816242133741,
+          "pixel_accuracy": 0.9306365198638676,
+          "mean_entropy": 0.0752535385677783,
+          "mean_mutual_information": 0.02665209462969461
+        },
+        {
+          "trace": 509,
+          "distance_to_train": 180,
+          "mean_iou": 0.79255612288432,
+          "pixel_accuracy": 0.9287107861306736,
+          "mean_entropy": 0.07342331336688307,
+          "mean_mutual_information": 0.02584733812454093
+        },
+        {
+          "trace": 510,
+          "distance_to_train": 179,
+          "mean_iou": 0.7915362169684178,
+          "pixel_accuracy": 0.9283755096539408,
+          "mean_entropy": 0.07161866612812544,
+          "mean_mutual_information": 0.024802855936950925
+        },
+        {
+          "trace": 511,
+          "distance_to_train": 178,
+          "mean_iou": 0.7879327312689731,
+          "pixel_accuracy": 0.9276476732823399,
+          "mean_entropy": 0.07081082946664541,
+          "mean_mutual_information": 0.024265743935325625
+        },
+        {
+          "trace": 512,
+          "distance_to_train": 177,
+          "mean_iou": 0.7938952336910626,
+          "pixel_accuracy": 0.9302237422920107,
+          "mean_entropy": 0.06963446362952047,
+          "mean_mutual_information": 0.02352446702449645
+        },
+        {
+          "trace": 513,
+          "distance_to_train": 176,
+          "mean_iou": 0.8034931737692522,
+          "pixel_accuracy": 0.9340364592108367,
+          "mean_entropy": 0.06800990486041254,
+          "mean_mutual_information": 0.022172704916209613
+        },
+        {
+          "trace": 514,
+          "distance_to_train": 175,
+          "mean_iou": 0.8048776454673465,
+          "pixel_accuracy": 0.9349984836742258,
+          "mean_entropy": 0.0648573881062776,
+          "mean_mutual_information": 0.020188500807840643
+        },
+        {
+          "trace": 515,
+          "distance_to_train": 174,
+          "mean_iou": 0.7986475666889851,
+          "pixel_accuracy": 0.93414597162786,
+          "mean_entropy": 0.06418285376163296,
+          "mean_mutual_information": 0.019510198156583926
+        },
+        {
+          "trace": 516,
+          "distance_to_train": 173,
+          "mean_iou": 0.7997677637840755,
+          "pixel_accuracy": 0.9347491323246959,
+          "mean_entropy": 0.06384911079916143,
+          "mean_mutual_information": 0.01906550233303089
+        },
+        {
+          "trace": 517,
+          "distance_to_train": 172,
+          "mean_iou": 0.8036827853420871,
+          "pixel_accuracy": 0.9363513832260674,
+          "mean_entropy": 0.06394092595042225,
+          "mean_mutual_information": 0.019485053375397167
+        },
+        {
+          "trace": 518,
+          "distance_to_train": 171,
+          "mean_iou": 0.8065122703866962,
+          "pixel_accuracy": 0.937369006301176,
+          "mean_entropy": 0.06347597501132739,
+          "mean_mutual_information": 0.019838698113531707
+        },
+        {
+          "trace": 519,
+          "distance_to_train": 170,
+          "mean_iou": 0.811451336159622,
+          "pixel_accuracy": 0.9403224719479731,
+          "mean_entropy": 0.06191004079461864,
+          "mean_mutual_information": 0.019500600386183155
+        },
+        {
+          "trace": 520,
+          "distance_to_train": 169,
+          "mean_iou": 0.818359564187372,
+          "pixel_accuracy": 0.9424571216767194,
+          "mean_entropy": 0.06091982056773255,
+          "mean_mutual_information": 0.018891537102157154
+        },
+        {
+          "trace": 521,
+          "distance_to_train": 168,
+          "mean_iou": 0.8215580585496293,
+          "pixel_accuracy": 0.9432961552717593,
+          "mean_entropy": 0.06021846461857478,
+          "mean_mutual_information": 0.018381583841348356
+        },
+        {
+          "trace": 522,
+          "distance_to_train": 167,
+          "mean_iou": 0.8239138401721631,
+          "pixel_accuracy": 0.9434646359133335,
+          "mean_entropy": 0.05855338347832343,
+          "mean_mutual_information": 0.017591546200777176
+        },
+        {
+          "trace": 523,
+          "distance_to_train": 166,
+          "mean_iou": 0.8240534662584306,
+          "pixel_accuracy": 0.9439734474508878,
+          "mean_entropy": 0.058391620185905935,
+          "mean_mutual_information": 0.017575908441896333
+        },
+        {
+          "trace": 524,
+          "distance_to_train": 165,
+          "mean_iou": 0.8267455666881766,
+          "pixel_accuracy": 0.944792263368939,
+          "mean_entropy": 0.05810867500089805,
+          "mean_mutual_information": 0.017444174900736797
+        },
+        {
+          "trace": 525,
+          "distance_to_train": 164,
+          "mean_iou": 0.8255893322204777,
+          "pixel_accuracy": 0.9444333996023857,
+          "mean_entropy": 0.058786876255071535,
+          "mean_mutual_information": 0.01828970427237389
+        },
+        {
+          "trace": 526,
+          "distance_to_train": 163,
+          "mean_iou": 0.8210326926278686,
+          "pixel_accuracy": 0.9436499646190653,
+          "mean_entropy": 0.05933530134471084,
+          "mean_mutual_information": 0.018822815967178327
+        },
+        {
+          "trace": 527,
+          "distance_to_train": 162,
+          "mean_iou": 0.825052937285024,
+          "pixel_accuracy": 0.9449708528490076,
+          "mean_entropy": 0.059279896973811655,
+          "mean_mutual_information": 0.018679043055149648
+        },
+        {
+          "trace": 528,
+          "distance_to_train": 161,
+          "mean_iou": 0.8292216734493384,
+          "pixel_accuracy": 0.9457121676719344,
+          "mean_entropy": 0.058587278432068624,
+          "mean_mutual_information": 0.018799456613441866
+        },
+        {
+          "trace": 529,
+          "distance_to_train": 160,
+          "mean_iou": 0.828443347971552,
+          "pixel_accuracy": 0.945014657815817,
+          "mean_entropy": 0.058689305161366376,
+          "mean_mutual_information": 0.0190237052594947
+        },
+        {
+          "trace": 530,
+          "distance_to_train": 159,
+          "mean_iou": 0.8264192275496337,
+          "pixel_accuracy": 0.9447349799508037,
+          "mean_entropy": 0.059806768331206545,
+          "mean_mutual_information": 0.019646408946284912
+        },
+        {
+          "trace": 531,
+          "distance_to_train": 158,
+          "mean_iou": 0.8258968206728636,
+          "pixel_accuracy": 0.9456481450281363,
+          "mean_entropy": 0.06136602604342892,
+          "mean_mutual_information": 0.02065467082978022
+        },
+        {
+          "trace": 532,
+          "distance_to_train": 157,
+          "mean_iou": 0.8296662062350161,
+          "pixel_accuracy": 0.9467129426828857,
+          "mean_entropy": 0.06200869367360071,
+          "mean_mutual_information": 0.02136443501174569
+        },
+        {
+          "trace": 533,
+          "distance_to_train": 156,
+          "mean_iou": 0.83153447392331,
+          "pixel_accuracy": 0.9469656636452471,
+          "mean_entropy": 0.06280883028726306,
+          "mean_mutual_information": 0.02266977964455326
+        },
+        {
+          "trace": 534,
+          "distance_to_train": 155,
+          "mean_iou": 0.834114476409543,
+          "pixel_accuracy": 0.9479479057856253,
+          "mean_entropy": 0.060166319498405424,
+          "mean_mutual_information": 0.020550401451490053
+        },
+        {
+          "trace": 535,
+          "distance_to_train": 154,
+          "mean_iou": 0.835371443916418,
+          "pixel_accuracy": 0.9483017151329313,
+          "mean_entropy": 0.05905944655095012,
+          "mean_mutual_information": 0.01968596798301398
+        },
+        {
+          "trace": 536,
+          "distance_to_train": 153,
+          "mean_iou": 0.8388216210968394,
+          "pixel_accuracy": 0.9497371701991442,
+          "mean_entropy": 0.058008454358298246,
+          "mean_mutual_information": 0.019161618665064176
+        },
+        {
+          "trace": 537,
+          "distance_to_train": 152,
+          "mean_iou": 0.842383537327947,
+          "pixel_accuracy": 0.9516123597398659,
+          "mean_entropy": 0.057137734222217955,
+          "mean_mutual_information": 0.018841557998383423
+        },
+        {
+          "trace": 538,
+          "distance_to_train": 151,
+          "mean_iou": 0.8416608142203187,
+          "pixel_accuracy": 0.9523334568858038,
+          "mean_entropy": 0.056971229437758605,
+          "mean_mutual_information": 0.01902132977891521
+        },
+        {
+          "trace": 539,
+          "distance_to_train": 150,
+          "mean_iou": 0.8378864636485323,
+          "pixel_accuracy": 0.9519173097011153,
+          "mean_entropy": 0.05883105738828246,
+          "mean_mutual_information": 0.02048601480381661
+        },
+        {
+          "trace": 540,
+          "distance_to_train": 149,
+          "mean_iou": 0.8379396742603277,
+          "pixel_accuracy": 0.9520133436668127,
+          "mean_entropy": 0.06027678174415719,
+          "mean_mutual_information": 0.021676731557277115
+        },
+        {
+          "trace": 541,
+          "distance_to_train": 148,
+          "mean_iou": 0.8390714366956665,
+          "pixel_accuracy": 0.9515432826768204,
+          "mean_entropy": 0.05951888216562091,
+          "mean_mutual_information": 0.021422008063830798
+        },
+        {
+          "trace": 542,
+          "distance_to_train": 147,
+          "mean_iou": 0.8418920133758228,
+          "pixel_accuracy": 0.9527394952319979,
+          "mean_entropy": 0.057420483170166924,
+          "mean_mutual_information": 0.020038315698067674
+        },
+        {
+          "trace": 543,
+          "distance_to_train": 146,
+          "mean_iou": 0.8389998577894658,
+          "pixel_accuracy": 0.9522896519189945,
+          "mean_entropy": 0.056526110700438045,
+          "mean_mutual_information": 0.01917448661702671
+        },
+        {
+          "trace": 544,
+          "distance_to_train": 145,
+          "mean_iou": 0.8385931729396408,
+          "pixel_accuracy": 0.9530545540317418,
+          "mean_entropy": 0.05564748304159344,
+          "mean_mutual_information": 0.01894463943304912
+        },
+        {
+          "trace": 545,
+          "distance_to_train": 144,
+          "mean_iou": 0.8419099400074875,
+          "pixel_accuracy": 0.9548320248003505,
+          "mean_entropy": 0.05510507438922447,
+          "mean_mutual_information": 0.0179713253516798
+        },
+        {
+          "trace": 546,
+          "distance_to_train": 143,
+          "mean_iou": 0.8453987891997881,
+          "pixel_accuracy": 0.9554200222394447,
+          "mean_entropy": 0.05479432940976944,
+          "mean_mutual_information": 0.017397735853760872
+        },
+        {
+          "trace": 547,
+          "distance_to_train": 142,
+          "mean_iou": 0.8472876860591335,
+          "pixel_accuracy": 0.9551319203423526,
+          "mean_entropy": 0.05610056895630619,
+          "mean_mutual_information": 0.01799799307958779
+        },
+        {
+          "trace": 548,
+          "distance_to_train": 141,
+          "mean_iou": 0.8469452371887809,
+          "pixel_accuracy": 0.9547528388988106,
+          "mean_entropy": 0.055678842272425214,
+          "mean_mutual_information": 0.018218126391166788
+        },
+        {
+          "trace": 549,
+          "distance_to_train": 140,
+          "mean_iou": 0.8418322729124451,
+          "pixel_accuracy": 0.9531825993193382,
+          "mean_entropy": 0.05527340825876052,
+          "mean_mutual_information": 0.018132535309998823
+        },
+        {
+          "trace": 550,
+          "distance_to_train": 139,
+          "mean_iou": 0.8403713736382508,
+          "pixel_accuracy": 0.9531303703204502,
+          "mean_entropy": 0.05514072680522566,
+          "mean_mutual_information": 0.01840301747548759
+        },
+        {
+          "trace": 551,
+          "distance_to_train": 138,
+          "mean_iou": 0.8419316236727283,
+          "pixel_accuracy": 0.9541227212993227,
+          "mean_entropy": 0.054569612202946295,
+          "mean_mutual_information": 0.017925230788369665
+        },
+        {
+          "trace": 552,
+          "distance_to_train": 137,
+          "mean_iou": 0.8418927944824331,
+          "pixel_accuracy": 0.9541244061057385,
+          "mean_entropy": 0.053783977807738845,
+          "mean_mutual_information": 0.017546723521822936
+        },
+        {
+          "trace": 553,
+          "distance_to_train": 136,
+          "mean_iou": 0.8389224367636521,
+          "pixel_accuracy": 0.9539087508845233,
+          "mean_entropy": 0.05264240282570272,
+          "mean_mutual_information": 0.01731956426172702
+        },
+        {
+          "trace": 554,
+          "distance_to_train": 135,
+          "mean_iou": 0.8364166829740904,
+          "pixel_accuracy": 0.9533662432186542,
+          "mean_entropy": 0.05179856273614295,
+          "mean_mutual_information": 0.017000420662010744
+        },
+        {
+          "trace": 555,
+          "distance_to_train": 134,
+          "mean_iou": 0.8361786033779962,
+          "pixel_accuracy": 0.9529298783569767,
+          "mean_entropy": 0.05223201915805637,
+          "mean_mutual_information": 0.017231670188314206
+        },
+        {
+          "trace": 556,
+          "distance_to_train": 133,
+          "mean_iou": 0.8371696818392308,
+          "pixel_accuracy": 0.9519577450550931,
+          "mean_entropy": 0.051957025708342985,
+          "mean_mutual_information": 0.01721266801964161
+        },
+        {
+          "trace": 557,
+          "distance_to_train": 132,
+          "mean_iou": 0.837522755396961,
+          "pixel_accuracy": 0.9515348586447417,
+          "mean_entropy": 0.0514536938724959,
+          "mean_mutual_information": 0.0169232944455229
+        },
+        {
+          "trace": 558,
+          "distance_to_train": 131,
+          "mean_iou": 0.8390333744771562,
+          "pixel_accuracy": 0.9517909492199347,
+          "mean_entropy": 0.050786590314140616,
+          "mean_mutual_information": 0.016713875911394317
+        },
+        {
+          "trace": 559,
+          "distance_to_train": 130,
+          "mean_iou": 0.8392056364685964,
+          "pixel_accuracy": 0.9527209623614247,
+          "mean_entropy": 0.050318812044582155,
+          "mean_mutual_information": 0.016320196562644107
+        },
+        {
+          "trace": 560,
+          "distance_to_train": 129,
+          "mean_iou": 0.8385893331898827,
+          "pixel_accuracy": 0.9526030259123227,
+          "mean_entropy": 0.05087256658113949,
+          "mean_mutual_information": 0.016540018489153655
+        },
+        {
+          "trace": 561,
+          "distance_to_train": 128,
+          "mean_iou": 0.8411480497365137,
+          "pixel_accuracy": 0.9528203659399535,
+          "mean_entropy": 0.05086892062120856,
+          "mean_mutual_information": 0.016240888112458742
+        },
+        {
+          "trace": 562,
+          "distance_to_train": 127,
+          "mean_iou": 0.8419151983415962,
+          "pixel_accuracy": 0.9528557468746841,
+          "mean_entropy": 0.05006370665066907,
+          "mean_mutual_information": 0.015546409218219013
+        },
+        {
+          "trace": 563,
+          "distance_to_train": 126,
+          "mean_iou": 0.8404361623014786,
+          "pixel_accuracy": 0.9529585200660444,
+          "mean_entropy": 0.04880859928098801,
+          "mean_mutual_information": 0.014843732158285198
+        },
+        {
+          "trace": 564,
+          "distance_to_train": 125,
+          "mean_iou": 0.8416282132563708,
+          "pixel_accuracy": 0.9537419550493649,
+          "mean_entropy": 0.047285296005556754,
+          "mean_mutual_information": 0.014082572092676117
+        },
+        {
+          "trace": 565,
+          "distance_to_train": 124,
+          "mean_iou": 0.8416416906126539,
+          "pixel_accuracy": 0.9548657209286653,
+          "mean_entropy": 0.04651093980155296,
+          "mean_mutual_information": 0.013788173015433515
+        },
+        {
+          "trace": 566,
+          "distance_to_train": 123,
+          "mean_iou": 0.8424332431279214,
+          "pixel_accuracy": 0.956164706675203,
+          "mean_entropy": 0.045887448607201634,
+          "mean_mutual_information": 0.013958853048568724
+        },
+        {
+          "trace": 567,
+          "distance_to_train": 122,
+          "mean_iou": 0.8426201026422246,
+          "pixel_accuracy": 0.9571233615257607,
+          "mean_entropy": 0.04564236544470824,
+          "mean_mutual_information": 0.014041456003059272
+        },
+        {
+          "trace": 568,
+          "distance_to_train": 121,
+          "mean_iou": 0.8418778381812192,
+          "pixel_accuracy": 0.9570374363985578,
+          "mean_entropy": 0.045452196148331944,
+          "mean_mutual_information": 0.01364389530698491
+        },
+        {
+          "trace": 569,
+          "distance_to_train": 120,
+          "mean_iou": 0.8425514484829276,
+          "pixel_accuracy": 0.9571317855578394,
+          "mean_entropy": 0.04547193475354727,
+          "mean_mutual_information": 0.013389971892918257
+        },
+        {
+          "trace": 570,
+          "distance_to_train": 119,
+          "mean_iou": 0.8451092640904792,
+          "pixel_accuracy": 0.9582235401152408,
+          "mean_entropy": 0.046153120670123934,
+          "mean_mutual_information": 0.013405244092970302
+        },
+        {
+          "trace": 571,
+          "distance_to_train": 118,
+          "mean_iou": 0.8464845032974203,
+          "pixel_accuracy": 0.9594888297334636,
+          "mean_entropy": 0.046823325498228915,
+          "mean_mutual_information": 0.013821858419977521
+        },
+        {
+          "trace": 572,
+          "distance_to_train": 117,
+          "mean_iou": 0.8489980339844303,
+          "pixel_accuracy": 0.9600532398827375,
+          "mean_entropy": 0.04765716512847128,
+          "mean_mutual_information": 0.014235235216040839
+        },
+        {
+          "trace": 573,
+          "distance_to_train": 116,
+          "mean_iou": 0.8532719231958619,
+          "pixel_accuracy": 0.9607659129965966,
+          "mean_entropy": 0.046694432794596716,
+          "mean_mutual_information": 0.013835207257094147
+        },
+        {
+          "trace": 574,
+          "distance_to_train": 115,
+          "mean_iou": 0.8560034196490163,
+          "pixel_accuracy": 0.9612005930518583,
+          "mean_entropy": 0.04489244835697489,
+          "mean_mutual_information": 0.01278483433465924
+        },
+        {
+          "trace": 575,
+          "distance_to_train": 114,
+          "mean_iou": 0.8555399030327563,
+          "pixel_accuracy": 0.9613303231458705,
+          "mean_entropy": 0.043854654549091966,
+          "mean_mutual_information": 0.012207128865392094
+        },
+        {
+          "trace": 576,
+          "distance_to_train": 113,
+          "mean_iou": 0.8551645134744684,
+          "pixel_accuracy": 0.9610439060551943,
+          "mean_entropy": 0.0445623897665171,
+          "mean_mutual_information": 0.012558061339960416
+        },
+        {
+          "trace": 577,
+          "distance_to_train": 112,
+          "mean_iou": 0.8550671626044225,
+          "pixel_accuracy": 0.9610944502476666,
+          "mean_entropy": 0.045273030438377805,
+          "mean_mutual_information": 0.012678200427802242
+        },
+        {
+          "trace": 578,
+          "distance_to_train": 111,
+          "mean_iou": 0.8554622476543888,
+          "pixel_accuracy": 0.9614684772719615,
+          "mean_entropy": 0.045386770519718504,
+          "mean_mutual_information": 0.01257735421416742
+        },
+        {
+          "trace": 579,
+          "distance_to_train": 110,
+          "mean_iou": 0.855151403660667,
+          "pixel_accuracy": 0.962374903123631,
+          "mean_entropy": 0.04461016141688837,
+          "mean_mutual_information": 0.01205290043145997
+        },
+        {
+          "trace": 580,
+          "distance_to_train": 109,
+          "mean_iou": 0.8550410988642906,
+          "pixel_accuracy": 0.9624473497995081,
+          "mean_entropy": 0.04333104524718192,
+          "mean_mutual_information": 0.011535628956804881
+        },
+        {
+          "trace": 581,
+          "distance_to_train": 108,
+          "mean_iou": 0.8516393084025055,
+          "pixel_accuracy": 0.9622434882232032,
+          "mean_entropy": 0.042665343513014986,
+          "mean_mutual_information": 0.011444256357075001
+        },
+        {
+          "trace": 582,
+          "distance_to_train": 107,
+          "mean_iou": 0.8511683436333722,
+          "pixel_accuracy": 0.9624355561545979,
+          "mean_entropy": 0.04291987541250975,
+          "mean_mutual_information": 0.01154534135610987
+        },
+        {
+          "trace": 583,
+          "distance_to_train": 106,
+          "mean_iou": 0.8523255637863807,
+          "pixel_accuracy": 0.9626427873437342,
+          "mean_entropy": 0.04317487859044181,
+          "mean_mutual_information": 0.011687889924414612
+        },
+        {
+          "trace": 584,
+          "distance_to_train": 105,
+          "mean_iou": 0.8547486426708085,
+          "pixel_accuracy": 0.9634531792297065,
+          "mean_entropy": 0.042859404189470034,
+          "mean_mutual_information": 0.011632328848940535
+        },
+        {
+          "trace": 585,
+          "distance_to_train": 104,
+          "mean_iou": 0.855173431616873,
+          "pixel_accuracy": 0.9635593220338983,
+          "mean_entropy": 0.0422420020337865,
+          "mean_mutual_information": 0.011659857774026457
+        },
+        {
+          "trace": 586,
+          "distance_to_train": 103,
+          "mean_iou": 0.8562727397210703,
+          "pixel_accuracy": 0.9639501971223506,
+          "mean_entropy": 0.04223987399746691,
+          "mean_mutual_information": 0.011784673946983066
+        },
+        {
+          "trace": 587,
+          "distance_to_train": 102,
+          "mean_iou": 0.8626864832171813,
+          "pixel_accuracy": 0.9650689085824039,
+          "mean_entropy": 0.04230259116924261,
+          "mean_mutual_information": 0.011599900851769998
+        },
+        {
+          "trace": 588,
+          "distance_to_train": 101,
+          "mean_iou": 0.8656892026092691,
+          "pixel_accuracy": 0.9659483775314216,
+          "mean_entropy": 0.04230331298086018,
+          "mean_mutual_information": 0.011539108155192919
+        },
+        {
+          "trace": 589,
+          "distance_to_train": 100,
+          "mean_iou": 0.8699777036693773,
+          "pixel_accuracy": 0.9671563837315093,
+          "mean_entropy": 0.041049398525891526,
+          "mean_mutual_information": 0.010973632168184802
+        },
+        {
+          "trace": 590,
+          "distance_to_train": 99,
+          "mean_iou": 0.8717410824978433,
+          "pixel_accuracy": 0.9669542069616202,
+          "mean_entropy": 0.03992902012740887,
+          "mean_mutual_information": 0.010304855774713685
+        },
+        {
+          "trace": 591,
+          "distance_to_train": 98,
+          "mean_iou": 0.8733380195966179,
+          "pixel_accuracy": 0.9669693702193618,
+          "mean_entropy": 0.03935622357463193,
+          "mean_mutual_information": 0.00999314705165455
+        },
+        {
+          "trace": 592,
+          "distance_to_train": 97,
+          "mean_iou": 0.8764477969148662,
+          "pixel_accuracy": 0.9677073154294572,
+          "mean_entropy": 0.03880673742518563,
+          "mean_mutual_information": 0.009741134660679615
+        },
+        {
+          "trace": 593,
+          "distance_to_train": 96,
+          "mean_iou": 0.8768726742304302,
+          "pixel_accuracy": 0.9675994878188496,
+          "mean_entropy": 0.039107956210199364,
+          "mean_mutual_information": 0.009969883616184729
+        },
+        {
+          "trace": 594,
+          "distance_to_train": 95,
+          "mean_iou": 0.8738828426799515,
+          "pixel_accuracy": 0.9666442025811234,
+          "mean_entropy": 0.038578435860914834,
+          "mean_mutual_information": 0.010030517000647988
+        },
+        {
+          "trace": 595,
+          "distance_to_train": 94,
+          "mean_iou": 0.8728833881136936,
+          "pixel_accuracy": 0.9658253866630724,
+          "mean_entropy": 0.03738262028609403,
+          "mean_mutual_information": 0.00990678007732867
+        },
+        {
+          "trace": 596,
+          "distance_to_train": 93,
+          "mean_iou": 0.872243107869935,
+          "pixel_accuracy": 0.9653418472217542,
+          "mean_entropy": 0.03693124316355563,
+          "mean_mutual_information": 0.009631515016414148
+        },
+        {
+          "trace": 597,
+          "distance_to_train": 92,
+          "mean_iou": 0.8737683524621613,
+          "pixel_accuracy": 0.9654968494120025,
+          "mean_entropy": 0.037073551607879146,
+          "mean_mutual_information": 0.009623194045043096
+        },
+        {
+          "trace": 598,
+          "distance_to_train": 91,
+          "mean_iou": 0.8757832960720061,
+          "pixel_accuracy": 0.9657411463422853,
+          "mean_entropy": 0.03701466756863522,
+          "mean_mutual_information": 0.009496172403357343
+        },
+        {
+          "trace": 599,
+          "distance_to_train": 90,
+          "mean_iou": 0.8783088707150851,
+          "pixel_accuracy": 0.9662954476530646,
+          "mean_entropy": 0.03715948134968774,
+          "mean_mutual_information": 0.009722186445334619
+        },
+        {
+          "trace": 600,
+          "distance_to_train": 89,
+          "mean_iou": 0.8788377763615273,
+          "pixel_accuracy": 0.9665414293897631,
+          "mean_entropy": 0.03755624469109696,
+          "mean_mutual_information": 0.009897950293180668
+        },
+        {
+          "trace": 601,
+          "distance_to_train": 88,
+          "mean_iou": 0.8794690278958415,
+          "pixel_accuracy": 0.966581864743741,
+          "mean_entropy": 0.03736546266289232,
+          "mean_mutual_information": 0.009631853974661462
+        },
+        {
+          "trace": 602,
+          "distance_to_train": 87,
+          "mean_iou": 0.8777159236943454,
+          "pixel_accuracy": 0.9660410418842875,
+          "mean_entropy": 0.03704464055450231,
+          "mean_mutual_information": 0.009423055777940897
+        },
+        {
+          "trace": 603,
+          "distance_to_train": 86,
+          "mean_iou": 0.875350094370808,
+          "pixel_accuracy": 0.9660022913367254,
+          "mean_entropy": 0.037189134676697565,
+          "mean_mutual_information": 0.009602693839890116
+        },
+        {
+          "trace": 604,
+          "distance_to_train": 85,
+          "mean_iou": 0.8725924349234605,
+          "pixel_accuracy": 0.9656366883445092,
+          "mean_entropy": 0.037303058606080255,
+          "mean_mutual_information": 0.009838285027524282
+        },
+        {
+          "trace": 605,
+          "distance_to_train": 84,
+          "mean_iou": 0.8767819955498913,
+          "pixel_accuracy": 0.9662364794285137,
+          "mean_entropy": 0.03773032685354727,
+          "mean_mutual_information": 0.009968764390554614
+        },
+        {
+          "trace": 606,
+          "distance_to_train": 83,
+          "mean_iou": 0.8776212102099513,
+          "pixel_accuracy": 0.9664453954240658,
+          "mean_entropy": 0.038185467402974994,
+          "mean_mutual_information": 0.010088547485062828
+        },
+        {
+          "trace": 607,
+          "distance_to_train": 82,
+          "mean_iou": 0.878221852469899,
+          "pixel_accuracy": 0.9661657175590525,
+          "mean_entropy": 0.038293316516973354,
+          "mean_mutual_information": 0.009760018945835228
+        },
+        {
+          "trace": 608,
+          "distance_to_train": 81,
+          "mean_iou": 0.877062326424508,
+          "pixel_accuracy": 0.9661404454628163,
+          "mean_entropy": 0.03796861078063608,
+          "mean_mutual_information": 0.009215865355539622
+        },
+        {
+          "trace": 609,
+          "distance_to_train": 80,
+          "mean_iou": 0.8755717709894402,
+          "pixel_accuracy": 0.9657091350203861,
+          "mean_entropy": 0.03764362871371439,
+          "mean_mutual_information": 0.009036649609579415
+        },
+        {
+          "trace": 610,
+          "distance_to_train": 79,
+          "mean_iou": 0.8750645342903893,
+          "pixel_accuracy": 0.9655103278633285,
+          "mean_entropy": 0.03960106934755762,
+          "mean_mutual_information": 0.010253545808853402
+        },
+        {
+          "trace": 611,
+          "distance_to_train": 78,
+          "mean_iou": 0.8745621114628674,
+          "pixel_accuracy": 0.9654361963810358,
+          "mean_entropy": 0.03959522717755314,
+          "mean_mutual_information": 0.010196539662785666
+        },
+        {
+          "trace": 612,
+          "distance_to_train": 77,
+          "mean_iou": 0.8750377201965364,
+          "pixel_accuracy": 0.96526434612663,
+          "mean_entropy": 0.037274437716915056,
+          "mean_mutual_information": 0.009011857246872371
+        },
+        {
+          "trace": 613,
+          "distance_to_train": 76,
+          "mean_iou": 0.875096614129332,
+          "pixel_accuracy": 0.9648684166189305,
+          "mean_entropy": 0.0367329740106336,
+          "mean_mutual_information": 0.008880339785213446
+        },
+        {
+          "trace": 614,
+          "distance_to_train": 75,
+          "mean_iou": 0.8757132271420489,
+          "pixel_accuracy": 0.9647454257505813,
+          "mean_entropy": 0.036063655110426064,
+          "mean_mutual_information": 0.008740751673996907
+        },
+        {
+          "trace": 615,
+          "distance_to_train": 74,
+          "mean_iou": 0.8767877395678015,
+          "pixel_accuracy": 0.9648818950702565,
+          "mean_entropy": 0.03558198106073379,
+          "mean_mutual_information": 0.00861911093884207
+        },
+        {
+          "trace": 616,
+          "distance_to_train": 73,
+          "mean_iou": 0.8771102999471626,
+          "pixel_accuracy": 0.9650335276476733,
+          "mean_entropy": 0.0354278629860674,
+          "mean_mutual_information": 0.008536208617719792
+        },
+        {
+          "trace": 617,
+          "distance_to_train": 72,
+          "mean_iou": 0.8760338172573139,
+          "pixel_accuracy": 0.9648532533611888,
+          "mean_entropy": 0.035697284150112835,
+          "mean_mutual_information": 0.008570040245829958
+        },
+        {
+          "trace": 618,
+          "distance_to_train": 71,
+          "mean_iou": 0.8747900800297265,
+          "pixel_accuracy": 0.9650958654850558,
+          "mean_entropy": 0.03600488985871803,
+          "mean_mutual_information": 0.00874450584037861
+        },
+        {
+          "trace": 619,
+          "distance_to_train": 70,
+          "mean_iou": 0.875669596006725,
+          "pixel_accuracy": 0.9659146814031068,
+          "mean_entropy": 0.03569774483747346,
+          "mean_mutual_information": 0.008635941325768153
+        },
+        {
+          "trace": 620,
+          "distance_to_train": 69,
+          "mean_iou": 0.8786426341398236,
+          "pixel_accuracy": 0.96703339286316,
+          "mean_entropy": 0.035491738529115247,
+          "mean_mutual_information": 0.008689035910707537
+        },
+        {
+          "trace": 621,
+          "distance_to_train": 68,
+          "mean_iou": 0.881401993364732,
+          "pixel_accuracy": 0.9681150385820669,
+          "mean_entropy": 0.035108836080113046,
+          "mean_mutual_information": 0.008551366333831653
+        },
+        {
+          "trace": 622,
+          "distance_to_train": 67,
+          "mean_iou": 0.8822479000638137,
+          "pixel_accuracy": 0.9687485257943862,
+          "mean_entropy": 0.03492549760111414,
+          "mean_mutual_information": 0.008430016496439083
+        },
+        {
+          "trace": 623,
+          "distance_to_train": 66,
+          "mean_iou": 0.88414589122196,
+          "pixel_accuracy": 0.9698099538363042,
+          "mean_entropy": 0.03478575762903871,
+          "mean_mutual_information": 0.008282520619821949
+        },
+        {
+          "trace": 624,
+          "distance_to_train": 65,
+          "mean_iou": 0.8815816654190461,
+          "pixel_accuracy": 0.969575765744516,
+          "mean_entropy": 0.035288041209489106,
+          "mean_mutual_information": 0.008340342947138538
+        }
+      ]
+    }
+  }
+}

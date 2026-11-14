@@ -1,0 +1,345 @@
+{
+  "args": {
+    "zarr": "data/zarr/parihaka.zarr",
+    "split": "configs/split.json",
+    "encoder": "resnet34",
+    "no_pretrained": false,
+    "epochs": 30,
+    "steps_per_epoch": 100,
+    "batch": 16,
+    "patch": 256,
+    "lr": 0.0003,
+    "workers": 2,
+    "val_stride": 4,
+    "figs": 0,
+    "seed": 1,
+    "tag": "ens"
+  },
+  "best_epoch": 13,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.5445201921463014,
+      "val_mean_iou": 0.3784949196396244,
+      "val_pixel_accuracy": 0.5224284238074378
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.1962360209226608,
+      "val_mean_iou": 0.6406631020000334,
+      "val_pixel_accuracy": 0.836333903359504
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6607115936279296,
+      "val_mean_iou": 0.7575731032704472,
+      "val_pixel_accuracy": 0.9054251468589593
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.41543112516403197,
+      "val_mean_iou": 0.7614753312847607,
+      "val_pixel_accuracy": 0.9156182256742034
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.32366802990436555,
+      "val_mean_iou": 0.6431702094652952,
+      "val_pixel_accuracy": 0.8697070402444093
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.3122638501226902,
+      "val_mean_iou": 0.8006468193535499,
+      "val_pixel_accuracy": 0.9354090148375285
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.23892295181751252,
+      "val_mean_iou": 0.7973195359334446,
+      "val_pixel_accuracy": 0.9368491031213847
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.20617291197180748,
+      "val_mean_iou": 0.7723209783125352,
+      "val_pixel_accuracy": 0.927734511013018
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.18654572769999503,
+      "val_mean_iou": 0.7720847077083602,
+      "val_pixel_accuracy": 0.9307225151913379
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.1698175161331892,
+      "val_mean_iou": 0.7906769901641987,
+      "val_pixel_accuracy": 0.9378736760229583
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.16740952759981156,
+      "val_mean_iou": 0.7753586628139847,
+      "val_pixel_accuracy": 0.9290641742763757
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.14426662035286428,
+      "val_mean_iou": 0.8083258278528859,
+      "val_pixel_accuracy": 0.9423599645067449
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.15125912852585316,
+      "val_mean_iou": 0.8134778827158559,
+      "val_pixel_accuracy": 0.9400660303714437
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.13116071842610835,
+      "val_mean_iou": 0.7759088628394027,
+      "val_pixel_accuracy": 0.925856232660534
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.1240187268704176,
+      "val_mean_iou": 0.7699628313143013,
+      "val_pixel_accuracy": 0.9294747054396784
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.1215494230389595,
+      "val_mean_iou": 0.8003838807758196,
+      "val_pixel_accuracy": 0.9356733890442654
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.11491600349545479,
+      "val_mean_iou": 0.7840426053131783,
+      "val_pixel_accuracy": 0.935016805943997
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.11761776238679886,
+      "val_mean_iou": 0.7904882241923993,
+      "val_pixel_accuracy": 0.9343194364884142
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.09635325022041798,
+      "val_mean_iou": 0.7901845112033361,
+      "val_pixel_accuracy": 0.9359683705675551
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.10223458714783192,
+      "val_mean_iou": 0.74348028011153,
+      "val_pixel_accuracy": 0.898240500499826
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.11527939826250076,
+      "val_mean_iou": 0.7848509475241635,
+      "val_pixel_accuracy": 0.9331477238265323
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.1036422199755907,
+      "val_mean_iou": 0.7825067329816332,
+      "val_pixel_accuracy": 0.9337204878076175
+    },
+    {
+      "epoch": 23,
+      "train_loss": 0.09814393661916256,
+      "val_mean_iou": 0.7991303581113868,
+      "val_pixel_accuracy": 0.9374097224562231
+    },
+    {
+      "epoch": 24,
+      "train_loss": 0.08893093779683113,
+      "val_mean_iou": 0.7909767667108146,
+      "val_pixel_accuracy": 0.9364122468578361
+    },
+    {
+      "epoch": 25,
+      "train_loss": 0.08605103813111782,
+      "val_mean_iou": 0.7958641507841063,
+      "val_pixel_accuracy": 0.9350999932607743
+    },
+    {
+      "epoch": 26,
+      "train_loss": 0.08168731175363064,
+      "val_mean_iou": 0.7951746445947757,
+      "val_pixel_accuracy": 0.9379270282261235
+    },
+    {
+      "epoch": 27,
+      "train_loss": 0.0877786410599947,
+      "val_mean_iou": 0.7919450872883197,
+      "val_pixel_accuracy": 0.9364591406364076
+    },
+    {
+      "epoch": 28,
+      "train_loss": 0.08663772322237491,
+      "val_mean_iou": 0.791364579605963,
+      "val_pixel_accuracy": 0.9372260083566398
+    },
+    {
+      "epoch": 29,
+      "train_loss": 0.08704075947403908,
+      "val_mean_iou": 0.7907602400677621,
+      "val_pixel_accuracy": 0.9369638805584571
+    },
+    {
+      "epoch": 30,
+      "train_loss": 0.09069547034800053,
+      "val_mean_iou": 0.7960868951312293,
+      "val_pixel_accuracy": 0.9378336618705844
+    }
+  ],
+  "class_names": [
+    "Basement/Other",
+    "Slope Mudstone A",
+    "Mass Transport Deposit",
+    "Slope Mudstone B",
+    "Slope Valley",
+    "Submarine Canyon"
+  ],
+  "results": {
+    "val": {
+      "per_class_iou": [
+        0.9633090559296413,
+        0.8727401500030878,
+        0.7711004918060289,
+        0.9468706783179236,
+        0.5883040996542962,
+        0.7451506597596798
+      ],
+      "mean_iou": 0.8145791892451095,
+      "pixel_accuracy": 0.9406537266287458,
+      "confusion_matrix": [
+        [
+          8131600,
+          46278,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          263437,
+          22173078,
+          399077,
+          562037,
+          82744,
+          289416
+        ],
+        [
+          5,
+          309974,
+          2390100,
+          5,
+          0,
+          4
+        ],
+        [
+          0,
+          266472,
+          422,
+          15525812,
+          2143,
+          141
+        ],
+        [
+          0,
+          223207,
+          0,
+          8326,
+          452157,
+          0
+        ],
+        [
+          0,
+          790557,
+          9,
+          31614,
+          0,
+          3250605
+        ]
+      ]
+    },
+    "test": {
+      "per_class_iou": [
+        0.9440995951077674,
+        0.858174383203496,
+        0.7098880104859785,
+        0.9546292214867343,
+        0.5880590910264157,
+        0.8291318188047739
+      ],
+      "mean_iou": 0.8139970200191944,
+      "pixel_accuracy": 0.9376474745615831,
+      "confusion_matrix": [
+        [
+          9980040,
+          78703,
+          0,
+          21749,
+          0,
+          0
+        ],
+        [
+          490447,
+          33746598,
+          376370,
+          689163,
+          223025,
+          1403701
+        ],
+        [
+          17,
+          812820,
+          2933253,
+          7149,
+          0,
+          111
+        ],
+        [
+          5,
+          474220,
+          2262,
+          28604594,
+          21817,
+          5418
+        ],
+        [
+          0,
+          346987,
+          0,
+          30596,
+          888532,
+          0
+        ],
+        [
+          0,
+          681673,
+          12,
+          107115,
+          0,
+          10665863
+        ]
+      ]
+    }
+  },
+  "baseline_mean_iou": {
+    "majority_val": 0.07176970073127845,
+    "depth_val": 0.2926152359164545,
+    "majority_test": 0.06647300032918525,
+    "depth_test": 0.24626406144419208
+  },
+  "train_seconds": 499.9979705810547,
+  "torch": "2.11.0+cu130",
+  "smp": "0.6.0",
+  "device": "Tesla T4"
+}
