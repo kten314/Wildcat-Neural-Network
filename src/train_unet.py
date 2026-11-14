@@ -223,7 +223,11 @@ def main():
     dice = smp.losses.DiceLoss(mode="multiclass")
     opt = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=1e-4)
     total = args.epochs * args.steps_per_epoch
-    sched = torch.optim.lr_scheduler.OneCycleLR(opt, max_lr=args.lr, total_steps=total, pct_start=0.1)
+    # warm-up must span at least a couple of steps, or OneCycleLR divides by zero on tiny runs
+    sched_total = max(total, 4)
+    sched = torch.optim.lr_scheduler.OneCycleLR(
+        opt, max_lr=args.lr, total_steps=sched_total,
+        pct_start=min(0.5, max(0.1, 3.0 / sched_total)))
     scaler = torch.amp.GradScaler("cuda", enabled=device.type == "cuda")
 
     ckpt = Path("checkpoints") / f"{args.tag}_seed{args.seed}.pt"
