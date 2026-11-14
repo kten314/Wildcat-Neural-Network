@@ -6,3 +6,5 @@ mlruns/
 *.sgy
 *.segy
 *.npz
+checkpoints/
+*.pt
