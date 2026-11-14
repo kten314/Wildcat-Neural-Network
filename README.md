@@ -1,4 +1,4 @@
-#nothing to see here lmao lock in
+#nothing to see here lmao lock in 🤨😀😅🙃
 ## Data
 Parihaka seismic and facies labels come from a Mendeley Data redistribution
 (DOI 10.17632/gnvyh3msrj.1) of the AIcrowd / SEAM AI Parihaka Facies Challenge data.
